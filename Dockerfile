@@ -1,3 +1,3 @@
 FROM nginx:alpine
-COPY . /usr/share/nginx/html/  # Copie TOUT le projet
+COPY public/ /usr/share/nginx/html/
 EXPOSE 80
